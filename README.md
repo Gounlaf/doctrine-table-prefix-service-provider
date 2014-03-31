@@ -11,7 +11,7 @@ Features
 
 Installation
 ------------
- 
+
 Through [Composer](http://getcomposer.org) as [val/doctrine-table-prefix-service-provider][2].
 
 Usage
@@ -69,6 +69,11 @@ use Val\Cilex\Provider\DoctrineTablePrefixServiceProvider;
 
 $app->register(new DoctrineTablePrefixServiceProvider());
 ```
+
+License
+-------
+
+MIT, see `LICENSE`.
 
 [1]: http://pimple.sensiolabs.org/
 [2]: https://packagist.org/packages/val/doctrine-table-prefix-service-provider
