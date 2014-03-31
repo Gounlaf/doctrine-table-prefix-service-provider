@@ -1,0 +1,22 @@
+{
+    "name": "val/doctrine-table-prefix-service-provider",
+    "description": "Doctrine event listener to dynamically add a table prefix.",
+    "keywords": ["pimple", "cilex", "silex", "doctrine", "table", "prefix"],
+    "license": "MIT",
+
+    "authors": [{
+        "name": "Valérian Galliat"
+    }],
+
+    "autoload": {
+        "psr-4": {
+            "Val\\": "src/"
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
