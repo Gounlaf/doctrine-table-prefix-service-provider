@@ -9,10 +9,12 @@ Features
 * Add a table prefix for any configured database directly in the configuration array.
 * Framework agnostic (since it extends [Pimple][1]).
 
+The `TablePrefix` code is totally taken from the [documentation][2].
+
 Installation
 ------------
 
-Through [Composer](http://getcomposer.org) as [val/doctrine-table-prefix-service-provider][2].
+Through [Composer](http://getcomposer.org) as [val/doctrine-table-prefix-service-provider][3].
 
 Usage
 -----
@@ -76,4 +78,5 @@ License
 MIT, see `LICENSE`.
 
 [1]: http://pimple.sensiolabs.org/
-[2]: https://packagist.org/packages/val/doctrine-table-prefix-service-provider
+[2]: https://github.com/doctrine/orm-documentation/blob/master/en/cookbook/sql-table-prefixes.rst
+[3]: https://packagist.org/packages/val/doctrine-table-prefix-service-provider
