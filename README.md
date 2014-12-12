@@ -1,7 +1,7 @@
-Doctrine Table Prefix Service Provider
+Doctrine table prefix service provider
 ======================================
 
-Doctrine event listener to dynamically add a table prefix.
+> Doctrine event listener to dynamically add a table prefix.
 
 Features
 --------
@@ -11,10 +11,15 @@ Features
 
 The `TablePrefix` code is totally taken from the [documentation][2].
 
+[1]: http://pimple.sensiolabs.org/
+[2]: https://github.com/doctrine/orm-documentation/blob/master/en/cookbook/sql-table-prefixes.rst
+
 Installation
 ------------
 
-Through [Composer](http://getcomposer.org) as [val/doctrine-table-prefix-service-provider][3].
+```sh
+composer require val/doctrine-table-prefix-service-provider
+```
 
 Usage
 -----
@@ -71,12 +76,3 @@ use Val\Cilex\Provider\DoctrineTablePrefixServiceProvider;
 
 $app->register(new DoctrineTablePrefixServiceProvider());
 ```
-
-License
--------
-
-MIT, see `LICENSE`.
-
-[1]: http://pimple.sensiolabs.org/
-[2]: https://github.com/doctrine/orm-documentation/blob/master/en/cookbook/sql-table-prefixes.rst
-[3]: https://packagist.org/packages/val/doctrine-table-prefix-service-provider
